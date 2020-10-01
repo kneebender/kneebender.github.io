@@ -2,3 +2,4 @@
 
 1223 yesss
  - [min forside](index.html)
+ - [stickman](stickman.html)
