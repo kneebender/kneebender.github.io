@@ -2,4 +2,4 @@
 
 1223 yesss
  - [min forside](Webside/index.html)
- - [stickman](stickmand/stickman.html)
+ - [stickman](stickman/stickman.html)
