@@ -6,21 +6,21 @@ function setup() {
   function draw() {
     background(230);
 
-    if (mousex > 400 && mouseY < 400){
-        text ("Det er bare dig der er farveblind", mousex, mouseY);
+    if (mouseX > 400 && mouseY < 400){
+        text ("Det er bare dig der er farveblind", mouseX, mouseY);
 
     }
 
-    if (mousex > 400 && mouseY > 400){
-        text ("Det er bare dig der er farveblind", mousex, mouseY);
+    if (mouseX > 400 && mouseY > 400){
+        text ("Det er bare dig der er farveblind", mouseX, mouseY);
         
     }
-    if (mousex < 400 && mouseY < 400){
-        text ("Det er bare dig der er farveblind", mousex, mouseY);
+    if (mouseX < 400 && mouseY < 400){
+        text ("Det er bare dig der er farveblind", mouseX, mouseY);
         
     }
-    if (mousex < 400 && mouseY > 400){
-        text ("Det er bare dig der er farveblind", mousex, mouseY);
+    if (mouseX < 400 && mouseY > 400){
+        text ("Det er bare dig der er farveblind", mouseX, mouseY);
         
     }
 
