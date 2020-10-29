@@ -1,5 +1,5 @@
 function setup() {
-    createCanvas(800, 400);
+    createCanvas(800, 800);
    
   }
   
@@ -15,11 +15,11 @@ function setup() {
         text ("Det er bare dig der er farveblind", mousex, mouseY);
         
     }
-    if (mousex > 400 && mouseY < 400){
+    if (mousex < 400 && mouseY < 400){
         text ("Det er bare dig der er farveblind", mousex, mouseY);
         
     }
-    if (mousex > 400 && mouseY > 400){
+    if (mousex < 400 && mouseY > 400){
         text ("Det er bare dig der er farveblind", mousex, mouseY);
         
     }
