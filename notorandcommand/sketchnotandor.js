@@ -7,20 +7,20 @@ function setup() {
     background(230);
 
     if (mouseX > 400 && mouseY < 400){
-        text ("Det er bare dig der er farveblind", mouseX, mouseY);
+        text ("øverst til højre", mouseX, mouseY);
 
     }
 
     if (mouseX > 400 && mouseY > 400){
-        text ("Det er bare dig der er farveblind", mouseX, mouseY);
+        text ("nederst til højre", mouseX, mouseY);
         
     }
     if (mouseX < 400 && mouseY < 400){
-        text ("Det er bare dig der er farveblind", mouseX, mouseY);
+        text ("øverst til venstre", mouseX, mouseY);
         
     }
     if (mouseX < 400 && mouseY > 400){
-        text ("Det er bare dig der er farveblind", mouseX, mouseY);
+        text ("nederst til venstre", mouseX, mouseY);
         
     }
 
